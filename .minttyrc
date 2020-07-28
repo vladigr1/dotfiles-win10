@@ -1,16 +1,11 @@
-# ___  ______  
-# \  \/ / ___\ 
-#  \   / /_/ | vlad B.
-#   \_/\___  / https://github.com/vladigr1/
-#     /_____/  
-#
 # High-Contrast Zenburn Theme for mintty
 # https://github.com/agkozak/zenburn.minttyrc
 BoldAsFont=yes
 
 ForegroundColour=220,220,204
 BackgroundColour=28,28,28
-CursorColour=217,98,119
+CursorColour=220,140,195
+CursorType=block
 
 Black=30,35,32
 Red=215,135,135
