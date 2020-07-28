@@ -4,7 +4,7 @@
 #   \_/\___  / https://github.com/vladigr1/
 #     /_____/  
 #
-# very simple bashrc for someone who want to use on windows
+# very simple bashrc for some one who want to use on windows
 
 # History control
 HISTCONTROL=ignoredups:ignorespace
@@ -19,6 +19,7 @@ shopt -s histappend
 alias grep='grep --color=auto'
 alias gg='git grep -ni'
 alias gf="cd ~/source/git"
+alias :q="exit"
 
 #mine
 #alias glg="git log --all --graph --decorate --oneline"
@@ -34,7 +35,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 #alias norg="gron --ungron"
 #alias ungron="gron --ungron"
 #alias j="jobs"
-#alias :q="exit"
+
 #alias follow="tail -f -n +1"
 
 # Personal binaries
