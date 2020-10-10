@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/c/Users/vladi/desktop/test'
+let g:netrw_dirhist_1='/c/Users/vladi/source/myScripts'
+let g:netrw_dirhist_0='/c/Users'
+let g:netrw_dirhist_9='/c/Users/vladi'
+let g:netrw_dirhist_8='/c/Users/vladi/Desktop'
+let g:netrw_dirhist_7='/c/Users/vladi/Desktop/proj/html-css'
+let g:netrw_dirhist_6='/c/Users/vladi/Desktop/proj'
+let g:netrw_dirhist_5='/c/Users/vladi/Desktop'
+let g:netrw_dirhist_4='/c/Users/vladi/Desktop/proj'
+let g:netrw_dirhist_3='/c/Users/vladi/Desktop'

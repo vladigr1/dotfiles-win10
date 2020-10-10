@@ -10,6 +10,11 @@
 
 " If you open this file in Vim, it'll be syntax highlighted for you.
 
+" Setting
+" -------
+
+set path=.,,**                    " Search relative to current file + directory
+
 " Vim is based on Vi. Setting `nocompatible` switches from the default
 " Vi-compatibility mode and enables useful Vim functionality. This
 " configuration option turns out not to be necessary for the file named
@@ -86,3 +91,39 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+
+
+" Key-binding
+" -----------
+
+" Navigation 
+nnoremap <Tab> %
+nnoremap H ^
+nnoremap L g_
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+" Leader-key
+" ----------
+
+" Leader key mapping - Normal mode
+nnoremap <SPACE> <Nop>
+let mapleader = " " " map leader to <Space> 
+set timeoutlen=500 " Set timeout length to 500 ms
+" toggle hls
+noremap <silent><expr> <Leader>h (&hls && v:hlsearch ? ':set nohls' : ':set hls')."\n" 
+" open file explorer
+nnoremap <Leader>d :20vs .<CR>
+" open terminal - not supported on windows
+" nnoremap <Leader>t :bo 15sp +te<CR>
+" show buffers 
+nnoremap <Leader>b :buffers<CR>
+" Window management
+nnoremap <silent> <Leader>+ :exe "resize " . (winheight(0) * 6/5)<CR>
+nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 5/6)<CR>
+
+" Leader key mapping - Visual mode
+" generate counter lines <Leader>a inc || <Leader>x current line number
+vnoremap <Leader>a :s/^\s*/\=printf("%d. ",line(".") - line("'<") + 1)<CR>
+vnoremap <Leader>x :s/^\s*/\=printf("%d. ",line("."))<CR>
