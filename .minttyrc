@@ -1,27 +1,18 @@
-# High-Contrast Zenburn Theme for mintty
-# https://github.com/agkozak/zenburn.minttyrc
-BoldAsFont=yes
-
-ForegroundColour=220,220,204
-BackgroundColour=28,28,28
-CursorColour=220,140,195
-CursorType=block
-
-Black=30,35,32
-Red=215,135,135
-Green=96,180,138
-Yellow=223,175,143
-Blue=80,96,112
-Magenta=220,140,195
-Cyan=140,208,211
-White=220,220,204
-BoldBlack=112,144,128
-BoldRed=220,163,163
-BoldGreen=195,191,159
-BoldYellow=240,223,175
-BoldBlue=148,191,243
-BoldMagenta=236,147,211
-BoldCyan=147,224,227
-BoldWhite=255,255,255
-
-# vim: syn=dosini:et
+ForegroundColour=248,248,242
+BackgroundColour=40,42,54
+Black=0,0,0
+BoldBlack=104,104,104
+Red=255,85,85
+BoldRed=255,110,103
+Green=80,250,123
+BoldGreen=90,247,142
+Yellow=241,250,140
+BoldYellow=244,249,157
+Blue=202,169,250
+BoldBlue=202,169,250
+Magenta=255,121,198
+BoldMagenta=255,146,208
+Cyan=139,233,253
+BoldCyan=154,237,254
+White=191,191,191
+BoldWhite=230,230,230
