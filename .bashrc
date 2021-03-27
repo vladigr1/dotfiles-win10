@@ -14,12 +14,11 @@ shopt -s histappend
 
 #allias:
 #path to myScripts
-export PATH="/c/Users/vladi/source/myScripts:/c/Program Files/SumatraPDF:$PATH"
+export PATH="/c/Users/do2vl/source/myScripts:/c/Program Files/SumatraPDF:$PATH"
 #general alias
 alias egrep='egrep --color=auto'
 #vim='vim \v'
 alias gf="cd ~/source/"
-alias gd="cd '/c/Users/vladi/Google Drive'"
 alias :q="exit"
 alias egrep='egrep --color=auto'
 
